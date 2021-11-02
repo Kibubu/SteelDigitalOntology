@@ -14,7 +14,7 @@ theme: jekyll-theme-jod
 exclude: ["docs", "Gemfile", "Gemfile.lock", "README.md", "_data", "LICENSE", "codes-combined.ttl", "StahlDigital-vocab.ttl"]
 
 jekyll_rdf:
-    baseiri: "http://example.org/PyronCodesOntology/"
+    baseiri: "http://example.org/PyronCodesOntology"
     path: "StahlDigital-vocab.ttl"
     include_blank: false
     restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"http://example.org/PyronCodesOntology/\") }"
