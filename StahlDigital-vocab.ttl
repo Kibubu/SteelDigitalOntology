@@ -1,8 +1,7 @@
-@base <http://example.org/> .
-@prefix map: <http://mapping.example.com/> .
+@prefix : <http://mapping.example.com/> .
 @prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ex: <http://example.org/PyronCodesOntology/> .
+@prefix ex: <http://example.org/SteelDigitalOntology/> .
 @prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
 @prefix fno: <https://w3id.org/function/ontology#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -16,324 +15,522 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ex:PyronCodesOntology
-    a owl:Ontology ;
-    skos:prefLabel "StahlDigital Pyron Codes Test Ontology"@en ;
-    owl:versionInfo "0.1"@en ;
-    skos:definition "This ontology contains several simple classes, properties and test instances about some Pyron codes."@en .
+<http://example.org/SteelDigitalOntology/> a owl:Ontology;
+  dc:description "Vocabulary of project StahlDigital"@en;
+  rdfs:label "StahlDigital Vocabulary"@en;
+  owl:versionInfo "0.1 (preliminary)"@en;
+  skos:prefLabel "StahlDigital Vocabulary"@en .
 
-ex:AbnormalCrashTest rdfs:label "abnormal crash test"@en;
-  a owl:Class ;
-  skos:preflabel "abnormal crash test"@en .
+ex:Benchmark a owl:Class;
+  rdfs:label "??"@de, "Benchmark"@en;
+  skos:altlabel "Richtwert, Bezugspunkt, Maßstab"@de;
+  skos:preflabel "??"@de, "Benchmark"@en .
 
-ex:Benchmark a owl:Class  .
+ex:ChemicalComposition a owl:Class;
+  rdfs:label "Chemical Composition"@en, "Chemische Zusammensetzung"@de;
+  skos:preflabel "Chemical Composition"@en, "Chemische Zusammensetzung"@de .
 
-ex:ChemicalComposition a owl:Class  .
+ex:Coating a owl:Class;
+  rdfs:comment "Thing that you put on the surface of a specimen that influences the surface behaviour"@en;
+  rdfs:label "Beschichtung"@de, "Coating"@en;
+  skos:preflabel "Beschichtung"@de, "Coating"@en .
 
-ex:Coating dc:description "Thing that you put on the surface of a specimen that influences the surface behaviour"@en;
-  rdfs:label "Beschichtung"@de;
-  a owl:Class ;
-  skos:preflabel "Beschichtung"@de .
+ex:Code a owl:Class;
+  rdfs:comment "A external general simulation program. e.g. DAMASK or LAMMPS. A Code gets executed by a job"@en;
+  rdfs:label "Code"@de, "Code"@en;
+  skos:altlabel "Ablauf"@de;
+  skos:preflabel "Code"@de, "Code"@en .
 
-ex:Code dc:description "A simulation program"@en;
-  rdfs:label "Code"@en;
-  a owl:Class ;
-  skos:preflabel "Code"@en .
+ex:CodeFileRessource a owl:Class;
+  rdfs:comment "file input or output of a job"@en;
+  rdfs:label "Datei"@de, "File"@en;
+  rdfs:subClassOf "CodeRessource";
+  skos:preflabel "Datei"@de, "File"@en .
 
-ex:CodeFileRessource dc:description "file input or output of a job"@en;
-  rdfs:label "Datei"@de, "file"@en;
-  a owl:Class ;
-  skos:preflabel "Datei"@de, "file"@en .
+ex:CodeRessource a owl:Class;
+  rdfs:comment "Input or output of a job"@en;
+  rdfs:label "Resource"@en;
+  skos:preflabel "Resource"@en .
 
-ex:CodeRessource dc:description "Input or output of a job"@en;
-  rdfs:label "ressource"@en;
-  a owl:Class ;
-  skos:preflabel "ressource"@en .
+ex:Color a owl:Class;
+  rdfs:comment "A Color, Green, Yellow, etc.."@en;
+  rdfs:label "Color"@en, "Farbe"@de;
+  skos:altlabel "Colour"@en;
+  skos:preflabel "Color"@en, "Farbe"@de .
 
-ex:Color a owl:Class  .
+ex:Component a owl:Class;
+  rdfs:label "Component"@en, "Komponente"@de;
+  skos:preflabel "Component"@en, "Komponente"@de .
 
-ex:Component a owl:Class  .
+ex:ComponentTest a owl:Class;
+  rdfs:label "Component test"@en, "Komponententest"@de;
+  skos:preflabel "Component test"@en, "Komponententest"@de .
 
-ex:ComponentTest a owl:Class  .
+ex:Composition a owl:Class;
+  rdfs:comment "Combination of Elements in a Phase or a whole Sample. Related to Alloys"@en;
+  rdfs:label "Composition"@en, "Zusammensetzung"@de;
+  skos:altlabel "Legierung"@de, "alloy"@en;
+  skos:preflabel "Composition"@en, "Zusammensetzung"@de .
 
-ex:Composition dc:description "Combination of Elements in a Phase or a whole Sample. Related to Alloys"@en;
-  a owl:Class ;
-  skos:altlabel "alloy"@en .
+ex:ConstitutiveModel a owl:Class .
 
-ex:CoordinateSystem rdfs:label "coordinate system"@en;
-  a owl:Class ;
-  skos:preflabel "coordinate system"@en .
+ex:ConstitutiveModelParameter a owl:Class .
 
-ex:CrashTest a owl:Class  .
+ex:CoordinateSystem a owl:Class;
+  rdfs:label "Coordinate system"@en, "Koordinatensystem"@de;
+  skos:altlabel "Koordinatensystem?"@de;
+  skos:preflabel "Coordinate system"@en, "Koordinatensystem"@de .
 
-ex:CrystallographyTexture a owl:Class  .
+ex:CrashTest a owl:Class;
+  rdfs:label "Crash Test"@de, "Crash Test"@en;
+  skos:preflabel "Crash Test"@de, "Crash Test"@en .
 
-ex:Damage a owl:Class  .
+ex:CrystallographyTexture a owl:Class;
+  rdfs:label "Crystollography Texture"@en, "Kristallographische Beschaffenheit"@de;
+  skos:preflabel "Crystollography Texture"@en, "Kristallographische Beschaffenheit"@de .
 
-ex:DamaskCode rdfs:label "damask code"@en;
-  a owl:Class ;
-  skos:altlabel "code damask"@en;
-  skos:preflabel "damask code"@en .
+ex:Damage a owl:Class;
+  rdfs:label "Damage"@en, "Schaden"@de;
+  skos:preflabel "Damage"@en, "Schaden"@de .
 
-ex:Deformation rdfs:label "abnormal deformation"@en;
-  a owl:Class ;
-  skos:preflabel "abnormal deformation"@en .
+ex:DamaskCode a owl:Class;
+  rdfs:label "Damask Code"@de, "Damask code"@en;
+  rdfs:subClassOf "Code";
+  skos:altlabel "Damask Ablauf"@de, "code damask"@en;
+  skos:preflabel "Damask Code"@de, "Damask code"@en .
 
-ex:DigitalWorkflow dc:description """Definition in the Workflow Group: \"A workflow is a chain of well-documented process steps to create or handle data for a specific problem in order to deliver a particular set of outputs.\"
+ex:Deformation a owl:Class;
+  rdfs:label "Deformation"@en, "Verfomung"@de;
+  skos:preflabel "Deformation"@en, "Verfomung"@de .
+
+ex:DigitalWorkflow a owl:Class;
+  rdfs:comment """Definition in the Workflow Group: \"A workflow is a chain of well-documented process steps to create or handle data for a specific problem in order to deliver a particular set of outputs.\"
 or
 \"chain of steps\""""@en;
-  rdfs:label "digital workflow"@en;
-  a owl:Class ;
-  skos:preflabel "digital workflow"@en .
+  rdfs:label "Digital workflow"@en, "Digitaler Arbeitsablauf"@de;
+  rdfs:subClassOf "Workflow";
+  skos:preflabel "Digital workflow"@en, "Digitaler Arbeitsablauf"@de .
 
-ex:Element dc:description "Chemical Elements"@en;
-  rdfs:label "elements"@en;
-  a owl:Class ;
+ex:Elasticity a owl:Class;
+  rdfs:label "Dehnbarkeit"@de, "Elasticity"@en;
+  skos:preflabel "Dehnbarkeit"@de, "Elasticity"@en .
+
+ex:Element a owl:Class;
+  rdfs:comment "Chemical Elements"@en;
+  rdfs:label "Element"@de, "Element"@en;
   skos:altlabel "chemical elements"@en;
-  skos:preflabel "elements"@en .
+  skos:preflabel "Element"@de, "Element"@en .
 
-ex:Experiment rdfs:label "experiment"@en;
-  a owl:Class ;
-  skos:preflabel "experiment"@en .
+ex:Elongation a owl:Class;
+  rdfs:label "Dehnung"@de, "Elongation"@en;
+  skos:preflabel "Dehnung"@de, "Elongation"@en .
 
-ex:ExperimentalTest dc:description "Suclasses like Tensile Test"@en;
-  rdfs:label "experimental test"@en;
-  a owl:Class ;
-  skos:preflabel "experimental test"@en .
+ex:Experiment a owl:Class;
+  rdfs:label "Experiment"@de, "Experiment"@en;
+  skos:preflabel "Experiment"@de, "Experiment"@en .
 
-ex:ExperimentalWorkflow rdfs:label "experimental workflow"@en;
-  a owl:Class ;
-  skos:preflabel "experimental workflow"@en .
+ex:ExperimentalTest a owl:Class;
+  rdfs:comment "Suclasses like Tensile Test"@en;
+  rdfs:label "Experimental test"@en, "Experimentaler Test"@de;
+  skos:preflabel "Experimental test"@en, "Experimentaler Test"@de .
 
-ex:FeedbackLoop a owl:Class  .
+ex:ExperimentalWorkflow a owl:Class;
+  rdfs:label "Experimental workflow"@en, "Experimenteller Arbeitsablauf"@de;
+  rdfs:subClassOf "Workflow";
+  skos:preflabel "Experimental workflow"@en, "Experimenteller Arbeitsablauf"@de .
 
-ex:FluidSolidTransition rdfs:label "fluid solid transition"@en;
-  a owl:Class ;
-  skos:preflabel "fluid solid transition"@en .
+ex:FeedbackLoop a owl:Class;
+  rdfs:label "Feedback Loop"@en, "Rückkopplung"@de;
+  skos:preflabel "Feedback Loop"@en, "Rückkopplung"@de .
 
-ex:Force a owl:Class  .
+ex:FluidSolidTransition a owl:Class;
+  rdfs:label "?"@de, "Fluid solid transition"@en;
+  skos:preflabel "?"@de, "Fluid solid transition"@en .
 
-ex:FrameOfMaterial rdfs:label "frame of material"@en;
-  a owl:Class ;
+ex:Force a owl:Class;
+  rdfs:label "Force"@en, "Kraft"@de;
+  skos:preflabel "Force"@en, "Kraft"@de .
+
+ex:FractureStrain a owl:Class;
+  rdfs:label "Bruchdehnung"@de, "Fracture Strain"@en;
+  skos:preflabel "Bruchdehnung"@de, "Fracture Strain"@en .
+
+ex:FractureStress a owl:Class;
+  rdfs:label "Bruchspannung"@de, "Fracture Stress"@en;
+  skos:preflabel "Bruchspannung"@de, "Fracture Stress"@en .
+
+ex:FrameOfMaterial a owl:Class;
+  rdfs:label "frame of material"@en;
   skos:preflabel "frame of material"@en .
 
-ex:FrameOfReference a owl:Class  .
+ex:FrameOfReference a owl:Class;
+  rdfs:label "Frame of reference"@en, "Referenzrahmen"@de;
+  skos:preflabel "Frame of reference"@en, "Referenzrahmen"@de .
 
-ex:Grain rdfs:label "grain"@en;
-  a owl:Class ;
-  skos:preflabel "grain"@en .
+ex:Geometry a owl:Class;
+  rdfs:label "Geometrie"@de, "Geometry"@en;
+  skos:preflabel "Geometrie"@de, "Geometry"@en .
 
-ex:GrainSize rdfs:label "grain size"@en;
-  a owl:Class ;
-  skos:preflabel "grain size"@en .
+ex:Grain a owl:Class;
+  rdfs:label "Grain"@en, "Korn"@de;
+  skos:preflabel "Grain"@en, "Korn"@de .
 
-ex:HDF5 a owl:Class  .
+ex:GrainBoundaries a owl:Class;
+  rdfs:comment "need at least two grains"@en;
+  rdfs:label "Korngrenzen"@de, "grain boundaries"@en;
+  skos:preflabel "Korngrenzen"@de, "grain boundaries"@en .
 
-ex:Microstructure rdfs:label "Gefüge"@de, "Microstructure"@en;
-  a owl:Class ;
+ex:GrainOrientation a owl:Class;
+  rdfs:label "Kornausrichtung"@de, "grain orientation"@en;
+  skos:preflabel "Kornausrichtung"@de, "grain orientation"@en .
+
+ex:GrainSize a owl:Class;
+  rdfs:label "Grain size"@en, "Korngröße"@de;
+  skos:preflabel "Grain size"@en, "Korngröße"@de .
+
+ex:HDF5 a owl:Class;
+  rdfs:label "HDF5 Dateiformat"@de, "HDF5 File Format"@en;
+  skos:preflabel "HDF5 Dateiformat"@de, "HDF5 File Format"@en .
+
+ex:Job a owl:Class;
+  rdfs:label "Job"@de, "Job"@en;
+  skos:altlabel "Execution Job"@en;
+  skos:preflabel "Job"@de, "Job"@en .
+
+ex:JobInput a owl:Class;
+  rdfs:comment "the input parameter for a pyiron job"@en;
+  rdfs:label "Pyiron job input"@en;
+  skos:preflabel "Pyiron job input"@en .
+
+ex:JobMetadata a owl:Class;
+  rdfs:comment "each pyiron job has some metadata which is stored in the central sql database"@en;
+  rdfs:label "Pyiron job metadata"@en;
+  skos:preflabel "Pyiron job metadata"@en .
+
+ex:JobOutput a owl:Class;
+  rdfs:label "Pyiron job output"@en;
+  skos:preflabel "Pyiron job output"@en .
+
+ex:Microstructure a owl:Class;
+  rdfs:label "Gefüge"@de, "Microstructure"@en;
   skos:preflabel "Gefüge"@de, "Microstructure"@en .
 
-ex:MorphologicalTexture a owl:Class  .
+ex:Model a owl:Class;
+  rdfs:label "Model"@en, "Modell"@de;
+  skos:preflabel "Model"@en, "Modell"@de .
 
-ex:NakajimaTest a owl:Class  .
+ex:MorphologicalTexture a owl:Class;
+  rdfs:label "Morphological Texture"@en, "Morphologische Beschaffenheit"@de;
+  skos:preflabel "Morphological Texture"@en, "Morphologische Beschaffenheit"@de .
 
-ex:Operator dc:description "some kind of a step. mathematical Operator"@en;
-  a owl:Class  .
+ex:NakajimaTest a owl:Class;
+  rdfs:label "Nakajima Test"@de, "Nakajima Test"@en;
+  skos:preflabel "Nakajima Test"@de, "Nakajima Test"@en .
 
-ex:Phase dc:description "e.g. austenite, ferrit"@en;
-  rdfs:label "phase"@en;
-  a owl:Class ;
-  skos:preflabel "phase"@en .
+ex:Operator a owl:Class;
+  rdfs:comment "some kind of a step. mathematical Operator"@en;
+  rdfs:label "Mathematische Operation"@de, "Operator"@en;
+  skos:preflabel "Mathematische Operation"@de, "Operator"@en .
 
-ex:PhaseBoundary a owl:Class  .
+ex:Phase a owl:Class;
+  rdfs:comment "Region of space (a thermodynamic system), throughout which all physical properties of a material are essentially uniform (Wikipedia)"@en;
+  rdfs:label "Phase"@de, "Phase"@en;
+  skos:preflabel "Phase"@de, "Phase"@en .
 
-ex:Properties%20of%20Structural%20Relevance rdfs:label "properties of structural relevance"@en;
-  a owl:Class ;
-  skos:preflabel "properties of structural relevance"@en .
+ex:PhaseBoundary a owl:Class;
+  rdfs:label "Phase Boundary"@en, "Phasengrenze"@de;
+  skos:preflabel "Phase Boundary"@en, "Phasengrenze"@de .
 
-ex:PyironJob dc:description "execution information of a Code; can get deferred; can get executed on a batch system"@en;
-  rdfs:label "Pyiron Job Step"@en;
-  a owl:Class ;
-  skos:preflabel "Pyiron Job Step"@en .
+ex:Plasticity a owl:Class;
+  rdfs:label "Plasticity"@en, "Verformbarkeit"@de;
+  skos:preflabel "Plasticity"@en, "Verformbarkeit"@de .
 
-ex:PyironNotebook rdfs:label "pyiron notebook"@en;
-  a owl:Class ;
-  skos:preflabel "pyiron notebook"@en .
+ex:Precipitation a owl:Class;
+  rdfs:label "??"@de, "Percipation"@en;
+  skos:altlabel "Ausscheidungshärtung"@de;
+  skos:preflabel "??"@de, "Percipation"@en .
 
-ex:PyironProject dc:description "some kind of a workflow"@en;
-  rdfs:label "pyiron project"@en;
-  a owl:Class ;
-  skos:preflabel "pyiron project"@en .
+ex:PropertyOfStructuralRelevance a owl:Class;
+  rdfs:comment "Properties that contribute towards the structural integrity of a component. Example Thickness, negative example Paint/ Color of Paint"@en;
+  rdfs:label "Property of structural relevance"@en, "Strukturrelevante Eigenschaft"@de;
+  skos:preflabel "Property of structural relevance"@en, "Strukturrelevante Eigenschaft"@de .
 
-ex:ShearTest a owl:Class  .
+ex:PyironJob a owl:Class;
+  rdfs:comment "execution information of a Code; can get deferred; can get executed on a batch system. A Pyiron job bundles all required metadata for a Pyiron code execution. Is similar to the context of a process from computer science."@en;
+  rdfs:label "Pyiron Job"@de, "Pyiron Job"@en;
+  rdfs:subClassOf "emmo:process";
+  skos:altlabel "Pyiron Job, Pyiron Prozess Pyiron Kontext"@de, "Pyiron process, Pyiron execution context"@en;
+  skos:preflabel "Pyiron Job"@de, "Pyiron Job"@en .
 
-ex:SheetThickness rdfs:label "sheet thickness"@en;
-  a owl:Class ;
-  skos:preflabel "sheet thickness"@en .
+ex:PyironNotebook a owl:Class;
+  rdfs:comment "Jupyter Pyiron Notebook"@en;
+  rdfs:label "Pyiron Notebook"@de, "Pyiron notebook"@en;
+  skos:preflabel "Pyiron Notebook"@de, "Pyiron notebook"@en .
 
-ex:Simulation rdfs:label "simulation"@en;
-  a owl:Class ;
-  skos:preflabel "simulation"@en .
+ex:PyironProject a owl:Class;
+  rdfs:comment "A frame where all pyiron jobs are done on top of this frame. It encloses a number of jobs. It also provides utility functions for creatig python objects for these jobs."@en;
+  rdfs:label "Pyiron Projekt"@de, "Pyiron project"@en;
+  skos:preflabel "Pyiron Projekt"@de, "Pyiron project"@en .
 
-ex:SimulationWorkflow a owl:Class  .
+ex:ReferenceJob a owl:Class;
+  rdfs:comment "a Pyiron job for ..."@en;
+  rdfs:label "Reference Job"@en;
+  rdfs:subClassOf "PyironJob";
+  skos:preflabel "Reference Job"@en .
 
-ex:Standard dc:description "Standard as described by ISO / DIN / etc"@en;
+ex:ScriptJob a owl:Class;
+  rdfs:comment "a Pyiron job for executing a script like e.g. JupyterNotebook"@en;
+  rdfs:label "Script Job"@en;
+  rdfs:subClassOf "PyironJob";
+  skos:preflabel "Script Job"@en .
+
+ex:ShearTest a owl:Class;
+  rdfs:label "Schertest"@de, "Shear Test"@en;
+  skos:preflabel "Schertest"@de, "Shear Test"@en .
+
+ex:SheetThickness a owl:Class;
+  rdfs:label "Blechstärke"@de, "Sheet thickness"@en;
+  skos:altlabel "Blechdicke"@de;
+  skos:preflabel "Blechstärke"@de, "Sheet thickness"@en .
+
+ex:Simulation a owl:Class;
+  rdfs:label "Simulation"@de, "Simulation"@en;
+  skos:preflabel "Simulation"@de, "Simulation"@en .
+
+ex:SimulationCode a owl:Class;
+  rdfs:label "Simulation Code"@en, "Simulations Code"@de;
+  rdfs:subClassOf "Code";
+  skos:altlabel "Simulation program"@en, "Simulationsprogramm"@de;
+  skos:preflabel "Simulation Code"@en, "Simulations Code"@de .
+
+ex:SimulationWorkflow a owl:Class;
+  rdfs:label "Simulation Workflow"@en, "Simulationsablauf"@de;
+  rdfs:subClassOf "Workflow";
+  skos:preflabel "Simulation Workflow"@en, "Simulationsablauf"@de .
+
+ex:Standard a owl:Class;
+  rdfs:comment "Standard as described by ISO / DIN / etc"@en;
   rdfs:label "Norm"@de, "Standard"@en;
-  a owl:Class ;
   skos:preflabel "Norm"@de, "Standard"@en .
 
-ex:TensileTest rdfs:label "Tensile Test"@en, "Zugversuch"@de;
-  a owl:Class ;
+ex:Strain a owl:Class;
+  rdfs:label "Dehnung"@de, "Strain"@en;
+  skos:preflabel "Dehnung"@de, "Strain"@en .
+
+ex:Stress a owl:Class;
+  rdfs:label "Spannung"@de, "Stress"@en;
+  skos:preflabel "Spannung"@de, "Stress"@en .
+
+ex:TensileTest a owl:Class;
+  rdfs:label "Tensile Test"@en, "Zugversuch"@de;
   skos:preflabel "Tensile Test"@en, "Zugversuch"@de .
 
-ex:Test dc:description "like Tensile Test etc, maybe an experiment"@en;
-  a owl:Class  .
+ex:Test a owl:Class;
+  rdfs:comment "like Tensile Test etc, maybe an experiment"@en;
+  rdfs:label "Test"@de, "Test"@en;
+  skos:preflabel "Test"@de, "Test"@en .
 
-ex:TestPiece dc:description "Something that a test is perfomed on"@en;
-  rdfs:label "test piece"@en;
-  a owl:Class ;
+ex:TestPiece a owl:Class;
+  rdfs:comment "Something that a test is perfomed on"@en;
+  rdfs:label "Test piece"@en, "Testobjekt"@de;
   skos:altlabel "sample"@en;
-  skos:preflabel "test piece"@en .
+  skos:preflabel "Test piece"@en, "Testobjekt"@de .
 
-ex:Testing%20machine rdfs:label "Prüfmaschiene"@en;
-  a owl:Class ;
-  skos:preflabel "Prüfmaschiene"@en .
+ex:Testing%20machine a owl:Class;
+  rdfs:comment "A machine pervorming an experimental test"@en;
+  rdfs:label "Prüfmaschiene"@de, "Testing machine"@en;
+  skos:preflabel "Prüfmaschiene"@de, "Testing machine"@en .
 
-ex:TimeIncrementStep rdfs:label "time increment step"@en;
-  a owl:Class ;
+ex:Texture a owl:Class;
+  rdfs:label "Textur"@de, "Texture"@en;
+  skos:altlabel "Oberflächenbeschaffenheit"@de;
+  skos:preflabel "Textur"@de, "Texture"@en .
+
+ex:TimeIncrementStep a owl:Class;
+  rdfs:label "time increment step"@en;
   skos:preflabel "time increment step"@en .
 
-ex:TimeSeries rdfs:label "time series"@en;
-  a owl:Class ;
-  skos:preflabel "time series"@en .
+ex:TimeSeries a owl:Class;
+  rdfs:label "Time series"@en, "Zeitreihe"@de;
+  skos:preflabel "Time series"@en, "Zeitreihe"@de .
 
-ex:TimeSeriesSimulation rdfs:label "time series simulation"@en;
-  a owl:Class ;
-  skos:preflabel "time series simulation"@en .
+ex:TimeSeriesSimulation a owl:Class;
+  rdfs:comment "A Simulation that return a time Series"@en;
+  rdfs:label "Time series simulation"@en, "Zeitreihensimulation"@de;
+  skos:preflabel "Time series simulation"@en, "Zeitreihensimulation"@de .
 
-ex:Validation a owl:Class  .
+ex:TotalElongation a owl:Class;
+  rdfs:label "Bruchdehnung"@de, "Total Elongation"@en;
+  skos:preflabel "Bruchdehnung"@de, "Total Elongation"@en .
 
-ex:Workflow rdfs:label "workflow"@en;
-  a owl:Class ;
-  skos:preflabel "workflow"@en .
+ex:TrueStrain a owl:Class;
+  rdfs:label "True Strain"@en, "wahre Dehnung"@de;
+  skos:preflabel "True Strain"@en, "wahre Dehnung"@de .
 
-ex:WorkflowStep dc:description "a part of a workflow"@en;
-  rdfs:label "workflow step"@en;
-  a owl:Class ;
-  skos:preflabel "workflow step"@en .
+ex:TrueStress a owl:Class;
+  rdfs:label "True Stress"@en, "wahre Spannung"@de;
+  skos:preflabel "True Stress"@en, "wahre Spannung"@de .
 
-ex:YieldSurface rdfs:label "yield surface"@en;
-  a owl:Class ;
-  skos:preflabel "yield surface"@en .
+ex:UltimateTensileStrength a owl:Class;
+  rdfs:label "Ultimate Tensile Strength"@en, "Zugfestigkeit"@de;
+  skos:preflabel "Ultimate Tensile Strength"@en, "Zugfestigkeit"@de .
 
-ex:codeVersion dc:description "exact version of a code"@en;
+ex:UnusualCrashTest a owl:Class;
+  rdfs:comment "Crashtestresults that differ from simulations"@en;
+  rdfs:label "Ungewöhnlicher Crashtest"@de, "Unusual crash test"@en;
+  skos:preflabel "Ungewöhnlicher Crashtest"@de, "Unusual crash test"@en .
+
+ex:UnusualResult a owl:Class;
+  rdfs:comment "Exeriment result that differs from a given simulation result, or the other way round."@en;
+  rdfs:label "Ungewöhnliches Ergebnis"@de, "Unusual result"@en;
+  skos:altlabel "Unerwarteter Ausgang"@de;
+  skos:preflabel "Ungewöhnliches Ergebnis"@de, "Unusual result"@en .
+
+ex:Validation a owl:Class;
+  rdfs:label "Validation"@en, "Validierung"@de;
+  skos:altlabel "Nachweis, Gültigkeitserklärung"@de;
+  skos:preflabel "Validation"@en, "Validierung"@de .
+
+ex:Workflow a owl:Class;
+  rdfs:label "Arbeitsablauf"@de, "Workflow"@en;
+  skos:preflabel "Arbeitsablauf"@de, "Workflow"@en .
+
+ex:WorkflowStep a owl:Class;
+  rdfs:comment "a part of a workflow"@en;
+  rdfs:label "Arbeitsschritt"@de, "Workflow step"@en;
+  skos:preflabel "Arbeitsschritt"@de, "Workflow step"@en .
+
+ex:YieldStress a owl:Class;
+  rdfs:label "Fließspannung"@de, "Yield Stress"@en;
+  skos:preflabel "Fließspannung"@de, "Yield Stress"@en .
+
+ex:YieldSurface a owl:Class;
+  rdfs:label "Ertragsfläche"@de, "Yield surface"@en;
+  skos:preflabel "Ertragsfläche"@de, "Yield surface"@en .
+
+ex:codeVersion a owl:DatatypeProperty;
+  dc:description "exact version of a code"@en;
   rdfs:domain "Code";
   rdfs:label "version"@en;
   rdfs:range "xsd:string";
-  a owl:DatatypeProperty ;
   skos:preflabel "version"@en .
 
-ex:emmo%3Aexperiment a owl:Class  .
-
-ex:emmo%3Aprocess a owl:Class  .
-
-ex:environment rdfs:domain "Workflow";
+ex:environment a owl:DatatypeProperty;
+  rdfs:domain "Workflow";
   rdfs:label "environment"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "environment"@en .
 
-ex:executedBy rdfs:domain "Workflow";
+ex:executedBy a owl:DatatypeProperty;
+  rdfs:domain "Workflow";
   rdfs:label "executedBy"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "executedBy"@en .
 
-ex:geometry a owl:Class  .
+ex:hasHDF a owl:ObjectProperty;
+  dc:description "The pyiron jobs has hdf5 file"@en;
+  rdfs:domain "PyironJob";
+  rdfs:label "has hdf"@en;
+  rdfs:range "HDF5";
+  skos:preflabel "has hdf"@en .
 
-ex:hasInput dc:description "input ressource for a Code"@en;
+ex:hasInput a owl:ObjectProperty;
+  dc:description "input ressource for a Code"@en;
   rdfs:domain "Code";
   rdfs:label "has input"@en;
   rdfs:range "CodeRessource";
-  a owl:ObjectProperty ;
   skos:preflabel "has input"@en .
 
-ex:hasOutput dc:description "output of a code"@en;
+ex:hasJob a owl:ObjectProperty;
+  dc:description "The relation between pyiron project and jobs"@en;
+  rdfs:domain "PyironProject";
+  rdfs:label "has job"@en;
+  rdfs:range "PyironJob";
+  skos:preflabel "has job"@en .
+
+ex:hasOutput a owl:ObjectProperty;
+  dc:description "output of a code"@en;
   rdfs:domain "Code";
   rdfs:label "has output"@en;
-  a owl:ObjectProperty ;
   skos:preflabel "has output"@en .
 
-ex:hasStandard dc:description "the related standard (ISO / DIN / etc)"@en;
+ex:hasStandard a owl:ObjectProperty;
+  dc:description "the related standard (ISO / DIN / etc)"@en;
   rdfs:label "has standard"@en;
   rdfs:range "Standard";
-  a owl:ObjectProperty ;
   skos:preflabel "has standard"@en .
 
-ex:input rdfs:domain "Workflow";
+ex:hasStep a owl:ObjectProperty;
+  dc:description "The relation between digital workflows and workflow steps"@en;
+  rdfs:domain "DigitalWorkflow";
+  rdfs:label "has Step"@en;
+  rdfs:range "WorkflowStep";
+  skos:preflabel "has Step"@en .
+
+ex:hasSubJob a owl:ObjectProperty;
+  rdfs:domain "PyironJob";
+  rdfs:label "has a sub job"@en;
+  rdfs:range "PyironJob";
+  skos:preflabel "has a sub job"@en .
+
+ex:input a owl:DatatypeProperty;
+  rdfs:domain "Workflow";
   rdfs:label "input"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "input"@en .
 
-ex:jobStartTime dc:description "time and date when the execution of a job instance was started"@en;
+ex:jobStartTime a owl:DatatypeProperty;
+  dc:description "time and date when the execution of a job instance was started"@en;
   rdfs:domain "Job";
   rdfs:label "start time"@en;
   rdfs:range "xsd:dateTime";
-  a owl:DatatypeProperty ;
   skos:preflabel "start time"@en .
 
-ex:metadata rdfs:domain "Workflow";
+ex:metadata a owl:DatatypeProperty;
+  rdfs:domain "Workflow";
   rdfs:label "metadata"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "metadata"@en .
 
-ex:norm dc:description "The norm according to which the experiment was conducted."@en;
+ex:norm a owl:DatatypeProperty;
+  dc:description "The norm according to which the experiment was conducted."@en;
   rdfs:label "norm"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "norm"@en .
 
-ex:output rdfs:domain "Workflow";
+ex:output a owl:DatatypeProperty;
+  rdfs:domain "Workflow";
   rdfs:label "output"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "output"@en .
 
-ex:parameters rdfs:domain "Workflow";
+ex:parameters a owl:DatatypeProperty;
+  rdfs:domain "Workflow";
   rdfs:label "parameters"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "parameters"@en .
 
-ex:precipitation a owl:Class  .
+ex:processChainSimulation a owl:Class .
 
-ex:processChainSimulation a owl:Class  .
-
-ex:related dc:description "some things are related"@en;
+ex:related a owl:ObjectProperty;
+  dc:description "some things are related"@en;
   rdfs:label "is related to"@en;
-  a owl:ObjectProperty ;
   skos:preflabel "is related to"@en .
 
-ex:ressourceUri rdfs:domain "CodeFileRessource";
+ex:ressourceUri a owl:DatatypeProperty;
+  rdfs:domain "CodeFileRessource";
   rdfs:label "uri"@en;
   rdfs:range "xsd:string";
-  a owl:DatatypeProperty ;
   skos:preflabel "uri"@en .
 
-ex:sequence dc:description "The sequence of steps"@en;
+ex:sequence a owl:DatatypeProperty;
+  dc:description "The sequence of steps"@en;
   rdfs:domain "Workflow";
   rdfs:label "sequence"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "sequence"@en .
 
-ex:skos%3Athing a owl:Class  .
-
-ex:texture a owl:Class  .
-
-ex:usesCode dc:description "code used by a job"@en;
+ex:usesCode a owl:ObjectProperty;
+  dc:description "code used by a job"@en;
   rdfs:domain "Job";
   rdfs:label "uses Code"@en;
   rdfs:range "Code";
-  a owl:ObjectProperty ;
   skos:preflabel "uses Code"@en .
 
-ex:workflowSteps dc:description "operations on data, can be other workflows, has pervious and following step"@en;
+ex:workflowSteps a owl:DatatypeProperty;
+  dc:description "operations on data, can be other workflows, has pervious and following step"@en;
   rdfs:domain "Workflow";
   rdfs:label "steps"@en;
-  a owl:DatatypeProperty ;
   skos:preflabel "steps"@en .
