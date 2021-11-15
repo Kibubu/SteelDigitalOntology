@@ -14,6 +14,7 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://example.org/SteelDigitalOntology/> a owl:Ontology;
   dc:description "Vocabulary of project StahlDigital"@en;
@@ -410,81 +411,81 @@ ex:YieldSurface a owl:Class;
 
 ex:codeVersion a owl:DatatypeProperty;
   dc:description "exact version of a code"@en;
-  rdfs:domain "Code";
+  rdfs:domain ex:Code ;
   rdfs:label "version"@en;
-  rdfs:range "xsd:string";
+  rdfs:range xsd:string ;
   skos:preflabel "version"@en .
 
 ex:environment a owl:DatatypeProperty;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "environment"@en;
   skos:preflabel "environment"@en .
 
 ex:executedBy a owl:DatatypeProperty;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "executedBy"@en;
   skos:preflabel "executedBy"@en .
 
 ex:hasHDF a owl:ObjectProperty;
   dc:description "The pyiron jobs has hdf5 file"@en;
-  rdfs:domain "PyironJob";
+  rdfs:domain ex:PyironJob ;
   rdfs:label "has hdf"@en;
-  rdfs:range "HDF5";
+  rdfs:range ex:HDF5 ;
   skos:preflabel "has hdf"@en .
 
 ex:hasInput a owl:ObjectProperty;
   dc:description "input ressource for a Code"@en;
-  rdfs:domain "Code";
+  rdfs:domain ex:Code ;
   rdfs:label "has input"@en;
-  rdfs:range "CodeRessource";
+  rdfs:range ex:CodeRessource ;
   skos:preflabel "has input"@en .
 
 ex:hasJob a owl:ObjectProperty;
   dc:description "The relation between pyiron project and jobs"@en;
-  rdfs:domain "PyironProject";
+  rdfs:domain ex:PyironProject ;
   rdfs:label "has job"@en;
-  rdfs:range "PyironJob";
+  rdfs:range ex:PyironJob ;
   skos:preflabel "has job"@en .
 
 ex:hasOutput a owl:ObjectProperty;
   dc:description "output of a code"@en;
-  rdfs:domain "Code";
+  rdfs:domain ex:Code ;
   rdfs:label "has output"@en;
   skos:preflabel "has output"@en .
 
 ex:hasStandard a owl:ObjectProperty;
   dc:description "the related standard (ISO / DIN / etc)"@en;
   rdfs:label "has standard"@en;
-  rdfs:range "Standard";
+  rdfs:range ex:Standard ;
   skos:preflabel "has standard"@en .
 
 ex:hasStep a owl:ObjectProperty;
   dc:description "The relation between digital workflows and workflow steps"@en;
-  rdfs:domain "DigitalWorkflow";
+  rdfs:domain ex:DigitalWorkflow ;
   rdfs:label "has Step"@en;
-  rdfs:range "WorkflowStep";
+  rdfs:range ex:WorkflowStep ;
   skos:preflabel "has Step"@en .
 
 ex:hasSubJob a owl:ObjectProperty;
-  rdfs:domain "PyironJob";
+  rdfs:domain ex:PyironJob ;
   rdfs:label "has a sub job"@en;
-  rdfs:range "PyironJob";
+  rdfs:range ex:PyironJob ;
   skos:preflabel "has a sub job"@en .
 
 ex:input a owl:DatatypeProperty;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "input"@en;
   skos:preflabel "input"@en .
 
 ex:jobStartTime a owl:DatatypeProperty;
   dc:description "time and date when the execution of a job instance was started"@en;
-  rdfs:domain "Job";
+  rdfs:domain ex:Job ;
   rdfs:label "start time"@en;
-  rdfs:range "xsd:dateTime";
+  rdfs:range xsd:dateTime ;
   skos:preflabel "start time"@en .
 
 ex:metadata a owl:DatatypeProperty;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "metadata"@en;
   skos:preflabel "metadata"@en .
 
@@ -494,12 +495,12 @@ ex:norm a owl:DatatypeProperty;
   skos:preflabel "norm"@en .
 
 ex:output a owl:DatatypeProperty;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "output"@en;
   skos:preflabel "output"@en .
 
 ex:parameters a owl:DatatypeProperty;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "parameters"@en;
   skos:preflabel "parameters"@en .
 
@@ -511,26 +512,26 @@ ex:related a owl:ObjectProperty;
   skos:preflabel "is related to"@en .
 
 ex:ressourceUri a owl:DatatypeProperty;
-  rdfs:domain "CodeFileRessource";
+  rdfs:domain ex:CodeFileRessource ;
   rdfs:label "uri"@en;
-  rdfs:range "xsd:string";
+  rdfs:range ex:xsd:string ;
   skos:preflabel "uri"@en .
 
 ex:sequence a owl:DatatypeProperty;
   dc:description "The sequence of steps"@en;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "sequence"@en;
   skos:preflabel "sequence"@en .
 
 ex:usesCode a owl:ObjectProperty;
   dc:description "code used by a job"@en;
-  rdfs:domain "Job";
+  rdfs:domain ex:Job ;
   rdfs:label "uses Code"@en;
-  rdfs:range "Code";
+  rdfs:range ex:Code ;
   skos:preflabel "uses Code"@en .
 
 ex:workflowSteps a owl:DatatypeProperty;
   dc:description "operations on data, can be other workflows, has pervious and following step"@en;
-  rdfs:domain "Workflow";
+  rdfs:domain ex:Workflow ;
   rdfs:label "steps"@en;
   skos:preflabel "steps"@en .
