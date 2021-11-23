@@ -1,0 +1,6 @@
+<http://example.org/SteelDigitalOntology/CoordinateSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://example.org/SteelDigitalOntology/CoordinateSystem> <http://www.w3.org/2004/02/skos/core#preflabel> "Coordinate system" .
+<http://example.org/SteelDigitalOntology/CoordinateSystem> <http://www.w3.org/2004/02/skos/core#preflabel> "Koordinatensystem" .
+<http://example.org/SteelDigitalOntology/CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinate system" .
+<http://example.org/SteelDigitalOntology/CoordinateSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Koordinatensystem" .
+<http://example.org/SteelDigitalOntology/CoordinateSystem> <http://www.w3.org/2004/02/skos/core#altlabel> "Koordinatensystem?" .

@@ -1,0 +1,6 @@
+<http://example.org/SteelDigitalOntology/codeVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://example.org/SteelDigitalOntology/codeVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/SteelDigitalOntology/Code> .
+<http://example.org/SteelDigitalOntology/codeVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://example.org/SteelDigitalOntology/codeVersion> <http://www.w3.org/2004/02/skos/core#preflabel> "version" .
+<http://example.org/SteelDigitalOntology/codeVersion> <http://www.w3.org/2000/01/rdf-schema#label> "version" .
+<http://example.org/SteelDigitalOntology/codeVersion> <http://purl.org/dc/elements/1.1/description> "exact version of a code" .
