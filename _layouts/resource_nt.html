@@ -2,12 +2,12 @@
 layout: default_nt
 rdf_prefix_path: "prefixes.pref"
 ---
-{% assign query = 'SELECT DISTINCT ?pre ?obj WHERE { ?resourceUri ?pre ?obj.  FILTER(STRSTARTS(STR(?obj), "http")) }' %}
+{% assign query = 'SELECT DISTINCT ?pre ?obj WHERE { ?resourceUri ?pre ?obj.  FILTER( isURI(?obj) ) }' %}
 {% assign resultset = page.rdf | sparql_query: query %}
 {% for result in resultset %}
 <{{page.rdf.iri}}> <{{result.pre}}> <{{result.obj}}> .
 {% endfor %}
-{% assign literal_query = 'SELECT DISTINCT ?pre ?obj WHERE { ?resourceUri ?pre ?obj.  FILTER(!(STRSTARTS(STR(?obj), "http"))) }' %}
+{% assign literal_query = 'SELECT DISTINCT ?pre ?obj WHERE { ?resourceUri ?pre ?obj.  FILTER( isLiteral(?obj) ) }' %}
 {% assign literal_resultset = page.rdf | sparql_query: literal_query %}
 {% for literal_result in literal_resultset %}
 <{{page.rdf.iri}}> <{{literal_result.pre}}> "{{literal_result.obj}}" .
