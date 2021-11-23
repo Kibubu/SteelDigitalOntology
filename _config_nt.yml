@@ -15,10 +15,10 @@ theme: jekyll-theme-jod
 exclude: ["docs", "Gemfile", "Gemfile.lock", "README.md", "_data", "LICENSE", "codes-combined.ttl", "StahlDigital-vocab.ttl", "run.sh" ,"prefixes.pref"]
 
 jekyll_rdf:
-    baseiri: "http://example.org/"
+    baseiri: "http://example.org/SteelDigitalOntology"
     path: "StahlDigital-vocab.ttl"
     include_blank: false
     restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"http://example.org/SteelDigitalOntology/\") }"
-    class_template_mappings:
-      "http://www.w3.org/2002/07/owl#Ontology": "ontology.html"
-    default_template: "resource.html"
+    #class_template_mappings:
+    #  "http://www.w3.org/2002/07/owl#Ontology": "ontology.html"
+    default_template: "resource_nt.html"
