@@ -1,6 +1,6 @@
-<http://example.org/SteelDigitalOntology/Benchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/Benchmark> <http://www.w3.org/2004/02/skos/core#preflabel> "??" .
-<http://example.org/SteelDigitalOntology/Benchmark> <http://www.w3.org/2004/02/skos/core#preflabel> "Benchmark" .
-<http://example.org/SteelDigitalOntology/Benchmark> <http://www.w3.org/2000/01/rdf-schema#label> "??" .
-<http://example.org/SteelDigitalOntology/Benchmark> <http://www.w3.org/2000/01/rdf-schema#label> "Benchmark" .
-<http://example.org/SteelDigitalOntology/Benchmark> <http://www.w3.org/2004/02/skos/core#altlabel> "Richtwert, Bezugspunkt, Maßstab" .
+<http://w3id.org/stahl/SteelDigitalOntology/Benchmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/Benchmark> <http://www.w3.org/2000/01/rdf-schema#label> "Benchmark" .
+<http://w3id.org/stahl/SteelDigitalOntology/Benchmark> <http://www.w3.org/2000/01/rdf-schema#label> "??" .
+<http://w3id.org/stahl/SteelDigitalOntology/Benchmark> <http://www.w3.org/2004/02/skos/core#altlabel> "Richtwert, Bezugspunkt, Maßstab" .
+<http://w3id.org/stahl/SteelDigitalOntology/Benchmark> <http://www.w3.org/2004/02/skos/core#preflabel> "Benchmark" .
+<http://w3id.org/stahl/SteelDigitalOntology/Benchmark> <http://www.w3.org/2004/02/skos/core#preflabel> "??" .

@@ -1,5 +1,5 @@
-<http://example.org/SteelDigitalOntology/YieldSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2004/02/skos/core#preflabel> "Yield surface" .
-<http://example.org/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2004/02/skos/core#preflabel> "Ertragsfläche" .
-<http://example.org/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Yield surface" .
-<http://example.org/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Ertragsfläche" .
+<http://w3id.org/stahl/SteelDigitalOntology/YieldSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Ertragsfläche" .
+<http://w3id.org/stahl/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Yield surface" .
+<http://w3id.org/stahl/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2004/02/skos/core#preflabel> "Ertragsfläche" .
+<http://w3id.org/stahl/SteelDigitalOntology/YieldSurface> <http://www.w3.org/2004/02/skos/core#preflabel> "Yield surface" .

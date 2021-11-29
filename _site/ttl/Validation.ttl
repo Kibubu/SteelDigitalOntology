@@ -1,6 +1,6 @@
-<http://example.org/SteelDigitalOntology/Validation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/Validation> <http://www.w3.org/2004/02/skos/core#preflabel> "Validation" .
-<http://example.org/SteelDigitalOntology/Validation> <http://www.w3.org/2004/02/skos/core#preflabel> "Validierung" .
-<http://example.org/SteelDigitalOntology/Validation> <http://www.w3.org/2000/01/rdf-schema#label> "Validation" .
-<http://example.org/SteelDigitalOntology/Validation> <http://www.w3.org/2000/01/rdf-schema#label> "Validierung" .
-<http://example.org/SteelDigitalOntology/Validation> <http://www.w3.org/2004/02/skos/core#altlabel> "Nachweis, Gültigkeitserklärung" .
+<http://w3id.org/stahl/SteelDigitalOntology/Validation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/Validation> <http://www.w3.org/2000/01/rdf-schema#label> "Validierung" .
+<http://w3id.org/stahl/SteelDigitalOntology/Validation> <http://www.w3.org/2000/01/rdf-schema#label> "Validation" .
+<http://w3id.org/stahl/SteelDigitalOntology/Validation> <http://www.w3.org/2004/02/skos/core#altlabel> "Nachweis, Gültigkeitserklärung" .
+<http://w3id.org/stahl/SteelDigitalOntology/Validation> <http://www.w3.org/2004/02/skos/core#preflabel> "Validierung" .
+<http://w3id.org/stahl/SteelDigitalOntology/Validation> <http://www.w3.org/2004/02/skos/core#preflabel> "Validation" .

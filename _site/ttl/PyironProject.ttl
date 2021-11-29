@@ -1,6 +1,6 @@
-<http://example.org/SteelDigitalOntology/PyironProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A frame where all pyiron jobs are done on top of this frame. It encloses a number of jobs. It also provides utility functions for creatig python objects for these jobs." .
-<http://example.org/SteelDigitalOntology/PyironProject> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron project" .
-<http://example.org/SteelDigitalOntology/PyironProject> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron Projekt" .
-<http://example.org/SteelDigitalOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron project" .
-<http://example.org/SteelDigitalOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron Projekt" .
+<http://w3id.org/stahl/SteelDigitalOntology/PyironProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron Projekt" .
+<http://w3id.org/stahl/SteelDigitalOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron project" .
+<http://w3id.org/stahl/SteelDigitalOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A frame where all pyiron jobs are done on top of this frame. It encloses a number of jobs. It also provides utility functions for creatig python objects for these jobs." .
+<http://w3id.org/stahl/SteelDigitalOntology/PyironProject> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron Projekt" .
+<http://w3id.org/stahl/SteelDigitalOntology/PyironProject> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron project" .

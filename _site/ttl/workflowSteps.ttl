@@ -1,5 +1,5 @@
-<http://example.org/SteelDigitalOntology/workflowSteps> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/SteelDigitalOntology/Workflow> .
-<http://example.org/SteelDigitalOntology/workflowSteps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://example.org/SteelDigitalOntology/workflowSteps> <http://www.w3.org/2004/02/skos/core#preflabel> "steps" .
-<http://example.org/SteelDigitalOntology/workflowSteps> <http://www.w3.org/2000/01/rdf-schema#label> "steps" .
-<http://example.org/SteelDigitalOntology/workflowSteps> <http://purl.org/dc/elements/1.1/description> "operations on data, can be other workflows, has pervious and following step" .
+<http://w3id.org/stahl/SteelDigitalOntology/workflowSteps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://w3id.org/stahl/SteelDigitalOntology/workflowSteps> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/stahl/SteelDigitalOntology/Workflow> .
+<http://w3id.org/stahl/SteelDigitalOntology/workflowSteps> <http://www.w3.org/2000/01/rdf-schema#label> "steps" .
+<http://w3id.org/stahl/SteelDigitalOntology/workflowSteps> <http://www.w3.org/2004/02/skos/core#preflabel> "steps" .
+<http://w3id.org/stahl/SteelDigitalOntology/workflowSteps> <http://purl.org/dc/elements/1.1/description> "operations on data, can be other workflows, has pervious and following step" .

@@ -1,5 +1,5 @@
-<http://example.org/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/SteelDigitalOntology/PyironJob> .
-<http://example.org/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/SteelDigitalOntology/PyironJob> .
-<http://example.org/SteelDigitalOntology/hasSubJob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://example.org/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2004/02/skos/core#preflabel> "has a sub job" .
-<http://example.org/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2000/01/rdf-schema#label> "has a sub job" .
+<http://w3id.org/stahl/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/stahl/SteelDigitalOntology/PyironJob> .
+<http://w3id.org/stahl/SteelDigitalOntology/hasSubJob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/stahl/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/stahl/SteelDigitalOntology/PyironJob> .
+<http://w3id.org/stahl/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2000/01/rdf-schema#label> "has a sub job" .
+<http://w3id.org/stahl/SteelDigitalOntology/hasSubJob> <http://www.w3.org/2004/02/skos/core#preflabel> "has a sub job" .
