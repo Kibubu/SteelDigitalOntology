@@ -1,8 +1,8 @@
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Damask code" .
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Damask Code" .
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#label> "Damask code" .
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#label> "Damask Code" .
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "Code" .
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#altlabel> "code damask" .
-<http://w3id.org/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#altlabel> "Damask Ablauf" .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#label> "Damask code" .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#label> "Damask Code" .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "Code" .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#altlabel> "code damask" .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#altlabel> "Damask Ablauf" .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Damask code" .
+<http://w3id.org/stahl/SteelDigitalOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Damask Code" .

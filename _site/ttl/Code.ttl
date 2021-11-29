@@ -1,7 +1,7 @@
-<http://w3id.org/SteelDigitalOntology/Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/SteelDigitalOntology/Code> <http://www.w3.org/2004/02/skos/core#preflabel> "Code" .
-<http://w3id.org/SteelDigitalOntology/Code> <http://www.w3.org/2004/02/skos/core#preflabel> "Code" .
-<http://w3id.org/SteelDigitalOntology/Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code" .
-<http://w3id.org/SteelDigitalOntology/Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code" .
-<http://w3id.org/SteelDigitalOntology/Code> <http://www.w3.org/2000/01/rdf-schema#comment> "A external general simulation program. e.g. DAMASK or LAMMPS. A Code gets executed by a job" .
-<http://w3id.org/SteelDigitalOntology/Code> <http://www.w3.org/2004/02/skos/core#altlabel> "Ablauf" .
+<http://w3id.org/stahl/SteelDigitalOntology/Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code" .
+<http://w3id.org/stahl/SteelDigitalOntology/Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code" .
+<http://w3id.org/stahl/SteelDigitalOntology/Code> <http://www.w3.org/2000/01/rdf-schema#comment> "A external general simulation program. e.g. DAMASK or LAMMPS. A Code gets executed by a job" .
+<http://w3id.org/stahl/SteelDigitalOntology/Code> <http://www.w3.org/2004/02/skos/core#altlabel> "Ablauf" .
+<http://w3id.org/stahl/SteelDigitalOntology/Code> <http://www.w3.org/2004/02/skos/core#preflabel> "Code" .
+<http://w3id.org/stahl/SteelDigitalOntology/Code> <http://www.w3.org/2004/02/skos/core#preflabel> "Code" .

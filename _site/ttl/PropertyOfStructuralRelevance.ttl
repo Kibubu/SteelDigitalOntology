@@ -1,6 +1,6 @@
-<http://w3id.org/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2004/02/skos/core#preflabel> "Property of structural relevance" .
-<http://w3id.org/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2004/02/skos/core#preflabel> "Strukturrelevante Eigenschaft" .
-<http://w3id.org/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#label> "Property of structural relevance" .
-<http://w3id.org/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#label> "Strukturrelevante Eigenschaft" .
-<http://w3id.org/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#comment> "Properties that contribute towards the structural integrity of a component. Example Thickness, negative example Paint/ Color of Paint" .
+<http://w3id.org/stahl/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#label> "Property of structural relevance" .
+<http://w3id.org/stahl/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#label> "Strukturrelevante Eigenschaft" .
+<http://w3id.org/stahl/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#comment> "Properties that contribute towards the structural integrity of a component. Example Thickness, negative example Paint/ Color of Paint" .
+<http://w3id.org/stahl/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2004/02/skos/core#preflabel> "Property of structural relevance" .
+<http://w3id.org/stahl/SteelDigitalOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2004/02/skos/core#preflabel> "Strukturrelevante Eigenschaft" .

@@ -1,6 +1,6 @@
-<http://w3id.org/SteelDigitalOntology/hasHDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://w3id.org/SteelDigitalOntology/hasHDF> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/SteelDigitalOntology/PyironJob> .
-<http://w3id.org/SteelDigitalOntology/hasHDF> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/SteelDigitalOntology/HDF5> .
-<http://w3id.org/SteelDigitalOntology/hasHDF> <http://www.w3.org/2004/02/skos/core#preflabel> "has hdf" .
-<http://w3id.org/SteelDigitalOntology/hasHDF> <http://purl.org/dc/elements/1.1/description> "The pyiron jobs has hdf5 file" .
-<http://w3id.org/SteelDigitalOntology/hasHDF> <http://www.w3.org/2000/01/rdf-schema#label> "has hdf" .
+<http://w3id.org/stahl/SteelDigitalOntology/hasHDF> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/stahl/SteelDigitalOntology/HDF5> .
+<http://w3id.org/stahl/SteelDigitalOntology/hasHDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/stahl/SteelDigitalOntology/hasHDF> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/stahl/SteelDigitalOntology/PyironJob> .
+<http://w3id.org/stahl/SteelDigitalOntology/hasHDF> <http://www.w3.org/2000/01/rdf-schema#label> "has hdf" .
+<http://w3id.org/stahl/SteelDigitalOntology/hasHDF> <http://www.w3.org/2004/02/skos/core#preflabel> "has hdf" .
+<http://w3id.org/stahl/SteelDigitalOntology/hasHDF> <http://purl.org/dc/elements/1.1/description> "The pyiron jobs has hdf5 file" .

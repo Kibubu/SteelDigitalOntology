@@ -1,5 +1,5 @@
-<http://w3id.org/SteelDigitalOntology/TimeSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2004/02/skos/core#preflabel> "Zeitreihe" .
-<http://w3id.org/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2004/02/skos/core#preflabel> "Time series" .
-<http://w3id.org/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Zeitreihe" .
-<http://w3id.org/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Time series" .
+<http://w3id.org/stahl/SteelDigitalOntology/TimeSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Time series" .
+<http://w3id.org/stahl/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Zeitreihe" .
+<http://w3id.org/stahl/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2004/02/skos/core#preflabel> "Time series" .
+<http://w3id.org/stahl/SteelDigitalOntology/TimeSeries> <http://www.w3.org/2004/02/skos/core#preflabel> "Zeitreihe" .

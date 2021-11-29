@@ -1,5 +1,5 @@
-<http://w3id.org/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2004/02/skos/core#preflabel> "Kristallographische Beschaffenheit" .
-<http://w3id.org/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2004/02/skos/core#preflabel> "Crystollography Texture" .
-<http://w3id.org/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2000/01/rdf-schema#label> "Kristallographische Beschaffenheit" .
-<http://w3id.org/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2000/01/rdf-schema#label> "Crystollography Texture" .
+<http://w3id.org/stahl/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/stahl/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2000/01/rdf-schema#label> "Crystollography Texture" .
+<http://w3id.org/stahl/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2000/01/rdf-schema#label> "Kristallographische Beschaffenheit" .
+<http://w3id.org/stahl/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2004/02/skos/core#preflabel> "Crystollography Texture" .
+<http://w3id.org/stahl/SteelDigitalOntology/CrystallographyTexture> <http://www.w3.org/2004/02/skos/core#preflabel> "Kristallographische Beschaffenheit" .
