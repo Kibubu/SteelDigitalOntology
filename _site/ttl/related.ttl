@@ -1,4 +1,0 @@
-<http://example.org/SteelDigitalOntology/related> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://example.org/SteelDigitalOntology/related> <http://www.w3.org/2004/02/skos/core#preflabel> "is related to" .
-<http://example.org/SteelDigitalOntology/related> <http://www.w3.org/2000/01/rdf-schema#label> "is related to" .
-<http://example.org/SteelDigitalOntology/related> <http://purl.org/dc/elements/1.1/description> "some things are related" .

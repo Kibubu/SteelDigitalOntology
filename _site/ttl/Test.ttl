@@ -1,6 +1,0 @@
-<http://example.org/SteelDigitalOntology/Test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/Test> <http://www.w3.org/2000/01/rdf-schema#comment> "like Tensile Test etc, maybe an experiment" .
-<http://example.org/SteelDigitalOntology/Test> <http://www.w3.org/2004/02/skos/core#preflabel> "Test" .
-<http://example.org/SteelDigitalOntology/Test> <http://www.w3.org/2004/02/skos/core#preflabel> "Test" .
-<http://example.org/SteelDigitalOntology/Test> <http://www.w3.org/2000/01/rdf-schema#label> "Test" .
-<http://example.org/SteelDigitalOntology/Test> <http://www.w3.org/2000/01/rdf-schema#label> "Test" .

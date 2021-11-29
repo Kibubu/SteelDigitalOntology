@@ -1,7 +1,0 @@
-<http://example.org/SteelDigitalOntology/CodeFileRessource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/CodeFileRessource> <http://www.w3.org/2000/01/rdf-schema#comment> "file input or output of a job" .
-<http://example.org/SteelDigitalOntology/CodeFileRessource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "CodeRessource" .
-<http://example.org/SteelDigitalOntology/CodeFileRessource> <http://www.w3.org/2004/02/skos/core#preflabel> "Datei" .
-<http://example.org/SteelDigitalOntology/CodeFileRessource> <http://www.w3.org/2004/02/skos/core#preflabel> "File" .
-<http://example.org/SteelDigitalOntology/CodeFileRessource> <http://www.w3.org/2000/01/rdf-schema#label> "Datei" .
-<http://example.org/SteelDigitalOntology/CodeFileRessource> <http://www.w3.org/2000/01/rdf-schema#label> "File" .

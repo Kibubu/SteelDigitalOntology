@@ -1,7 +1,0 @@
-<http://example.org/SteelDigitalOntology/TestPiece> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/TestPiece> <http://www.w3.org/2000/01/rdf-schema#comment> "Something that a test is perfomed on" .
-<http://example.org/SteelDigitalOntology/TestPiece> <http://www.w3.org/2004/02/skos/core#preflabel> "Testobjekt" .
-<http://example.org/SteelDigitalOntology/TestPiece> <http://www.w3.org/2004/02/skos/core#preflabel> "Test piece" .
-<http://example.org/SteelDigitalOntology/TestPiece> <http://www.w3.org/2000/01/rdf-schema#label> "Testobjekt" .
-<http://example.org/SteelDigitalOntology/TestPiece> <http://www.w3.org/2000/01/rdf-schema#label> "Test piece" .
-<http://example.org/SteelDigitalOntology/TestPiece> <http://www.w3.org/2004/02/skos/core#altlabel> "sample" .

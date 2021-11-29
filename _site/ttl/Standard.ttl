@@ -1,6 +1,0 @@
-<http://example.org/SteelDigitalOntology/Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://example.org/SteelDigitalOntology/Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Standard as described by ISO / DIN / etc" .
-<http://example.org/SteelDigitalOntology/Standard> <http://www.w3.org/2004/02/skos/core#preflabel> "Norm" .
-<http://example.org/SteelDigitalOntology/Standard> <http://www.w3.org/2004/02/skos/core#preflabel> "Standard" .
-<http://example.org/SteelDigitalOntology/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Norm" .
-<http://example.org/SteelDigitalOntology/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard" .
