@@ -44,12 +44,12 @@
         <table>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
             <td>Pyiron Job</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
             <td>Pyiron Job</td>
           </tr>
         
@@ -59,8 +59,13 @@
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
-            <td>Pyiron Job, Pyiron Prozess Pyiron Kontext</td>
+            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
+            <td>Pyiron Job</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
+            <td>Pyiron Job</td>
           </tr>
         
           <tr>
@@ -69,18 +74,13 @@
           </tr>
         
           <tr>
+            <td>http://www.w3.org/2004/02/skos/core#altlabel</td>
+            <td>Pyiron Job, Pyiron Prozess Pyiron Kontext</td>
+          </tr>
+        
+          <tr>
             <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
             <td>emmo:process</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
-            <td>Pyiron Job</td>
-          </tr>
-        
-          <tr>
-            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
-            <td>Pyiron Job</td>
           </tr>
         
         </table>
@@ -109,21 +109,11 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#domain"
-            href=".//SteelDigitalOntology/hasSubJob"
-            >has a sub job</a> via
+            href=".//SteelDigitalOntology/hasHDF"
+            >has hdf</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#domain"
             >domain</a>
-    </li>
-    
-    <li>
-        <a
-            title="http://www.w3.org/2000/01/rdf-schema#range"
-            href=".//SteelDigitalOntology/hasSubJob"
-            >has a sub job</a> via
-        <a
-            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
-            >range</a>
     </li>
     
     <li>
@@ -139,11 +129,21 @@
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#domain"
-            href=".//SteelDigitalOntology/hasHDF"
-            >has hdf</a> via
+            href=".//SteelDigitalOntology/hasSubJob"
+            >has a sub job</a> via
         <a
             href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#domain"
             >domain</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#range"
+            href=".//SteelDigitalOntology/hasSubJob"
+            >has a sub job</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#range"
+            >range</a>
     </li>
     
 </ul>

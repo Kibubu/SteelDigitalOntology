@@ -4,9 +4,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "stahl" # the subpath of your site, e.g. /blog
 #url: "http://example.org" # the base hostname & protocol for your site, e.g. http://example.com
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://w3id.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
@@ -15,10 +15,10 @@ theme: jekyll-theme-jod
 exclude: ["docs", "Gemfile", "Gemfile.lock", "README.md", "_data", "LICENSE", "codes-combined.ttl", "StahlDigital-vocab.ttl", "run.sh" ,"prefixes.pref"]
 
 jekyll_rdf:
-    baseiri: "http://w3id.org"
+    baseiri: "http://w3id.org/stahl"
     path: "StahlDigital-vocab.ttl"
     include_blank: false
-    restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"http://w3id.org/SteelDigitalOntology/\") }"
+    restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), \"http://w3id.org/stahl/SteelDigitalOntology/\") }"
     class_template_mappings:
       "http://www.w3.org/2002/07/owl#Ontology": "ontology.html"
     default_template: "resource.html"

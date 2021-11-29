@@ -1,0 +1,6 @@
+<http://w3id.org/SteelDigitalOntology/hasInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/SteelDigitalOntology/hasInput> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/SteelDigitalOntology/Code> .
+<http://w3id.org/SteelDigitalOntology/hasInput> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/SteelDigitalOntology/CodeRessource> .
+<http://w3id.org/SteelDigitalOntology/hasInput> <http://www.w3.org/2004/02/skos/core#preflabel> "has input" .
+<http://w3id.org/SteelDigitalOntology/hasInput> <http://purl.org/dc/elements/1.1/description> "input ressource for a Code" .
+<http://w3id.org/SteelDigitalOntology/hasInput> <http://www.w3.org/2000/01/rdf-schema#label> "has input" .
