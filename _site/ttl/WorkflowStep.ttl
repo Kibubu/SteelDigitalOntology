@@ -1,6 +1,6 @@
-<http://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#label> "Workflow step" .
-<http://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#label> "Arbeitsschritt" .
-<http://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#comment> "a part of a workflow" .
-<http://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2004/02/skos/core#preflabel> "Workflow step" .
-<http://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2004/02/skos/core#preflabel> "Arbeitsschritt" .
+<https://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#label> "Workflow step" .
+<https://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#label> "Arbeitsschritt" .
+<https://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2000/01/rdf-schema#comment> "a part of a workflow" .
+<https://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2004/02/skos/core#preflabel> "Workflow step" .
+<https://w3id.org/stahl/SteelDigitalOntology/WorkflowStep> <http://www.w3.org/2004/02/skos/core#preflabel> "Arbeitsschritt" .

@@ -1,5 +1,5 @@
-<http://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2000/01/rdf-schema#label> "Chemische Zusammensetzung" .
-<http://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2000/01/rdf-schema#label> "Chemical Composition" .
-<http://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2004/02/skos/core#preflabel> "Chemische Zusammensetzung" .
-<http://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2004/02/skos/core#preflabel> "Chemical Composition" .
+<https://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2000/01/rdf-schema#label> "Chemische Zusammensetzung" .
+<https://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2000/01/rdf-schema#label> "Chemical Composition" .
+<https://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2004/02/skos/core#preflabel> "Chemische Zusammensetzung" .
+<https://w3id.org/stahl/SteelDigitalOntology/ChemicalComposition> <http://www.w3.org/2004/02/skos/core#preflabel> "Chemical Composition" .

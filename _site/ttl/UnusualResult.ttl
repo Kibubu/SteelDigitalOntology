@@ -1,7 +1,7 @@
-<http://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2000/01/rdf-schema#label> "Unusual result" .
-<http://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2000/01/rdf-schema#label> "Ungewöhnliches Ergebnis" .
-<http://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2000/01/rdf-schema#comment> "Exeriment result that differs from a given simulation result, or the other way round." .
-<http://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2004/02/skos/core#altlabel> "Unerwarteter Ausgang" .
-<http://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2004/02/skos/core#preflabel> "Unusual result" .
-<http://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2004/02/skos/core#preflabel> "Ungewöhnliches Ergebnis" .
+<https://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2000/01/rdf-schema#label> "Unusual result" .
+<https://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2000/01/rdf-schema#label> "Ungewöhnliches Ergebnis" .
+<https://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2000/01/rdf-schema#comment> "Exeriment result that differs from a given simulation result, or the other way round." .
+<https://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2004/02/skos/core#altlabel> "Unerwarteter Ausgang" .
+<https://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2004/02/skos/core#preflabel> "Unusual result" .
+<https://w3id.org/stahl/SteelDigitalOntology/UnusualResult> <http://www.w3.org/2004/02/skos/core#preflabel> "Ungewöhnliches Ergebnis" .
