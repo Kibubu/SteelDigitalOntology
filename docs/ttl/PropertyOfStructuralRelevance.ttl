@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#comment> "Properties that contribute towards the structural integrity of a component. Example Thickness, negative example Paint/ Color of Paint" .
+
+<https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#label> "Property of structural relevance" .
+
+<https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2000/01/rdf-schema#label> "Strukturrelevante Eigenschaft" .
+
+<https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2004/02/skos/core#preflabel> "Property of structural relevance" .
+
+<https://w3id.org/steel/ProcessOntology/PropertyOfStructuralRelevance> <http://www.w3.org/2004/02/skos/core#preflabel> "Strukturrelevante Eigenschaft" .
+
+

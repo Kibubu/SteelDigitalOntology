@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/steel/ProcessOntology/DigitalWorkflow> .
+
+<https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/steel/ProcessOntology/WorkflowStep> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/hasStep> <http://purl.org/dc/elements/1.1/description> "The relation between digital workflows and workflow steps" .
+
+<https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/2000/01/rdf-schema#label> "has Step" .
+
+<https://w3id.org/steel/ProcessOntology/hasStep> <http://www.w3.org/2004/02/skos/core#preflabel> "has Step" .
+
+

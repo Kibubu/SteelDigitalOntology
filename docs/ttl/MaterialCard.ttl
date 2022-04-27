@@ -1,0 +1,21 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/2000/01/rdf-schema#comment> "The MaterialCard is a digital representation of a real world steel; for example HCT980X. It contains all information to reproduce the behaviour steel within a simulation as close as possible to it's real world counter part." .
+
+<https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/2000/01/rdf-schema#label> "Material Card" .
+
+<https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/2000/01/rdf-schema#label> "Material Karte" .
+
+<https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/2004/02/skos/core#altlabel> "Digitale Werkstoffbeschreibung" .
+
+<https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/2004/02/skos/core#preflabel> "Material Card" .
+
+<https://w3id.org/steel/ProcessOntology/MaterialCard> <http://www.w3.org/2004/02/skos/core#preflabel> "Material Karte" .
+
+

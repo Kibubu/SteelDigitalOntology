@@ -1,0 +1,23 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/DigitalWorkflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://w3id.org/steel/ProcessOntology/DigitalWorkflow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/steel/ProcessOntology/Workflow> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/DigitalWorkflow> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition in the Workflow Group: "A workflow is a chain of well-documented process steps to create or handle data for a specific problem in order to deliver a particular set of outputs."
+or
+"chain of steps"" .
+
+<https://w3id.org/steel/ProcessOntology/DigitalWorkflow> <http://www.w3.org/2000/01/rdf-schema#label> "Digital workflow" .
+
+<https://w3id.org/steel/ProcessOntology/DigitalWorkflow> <http://www.w3.org/2000/01/rdf-schema#label> "Digitaler Arbeitsablauf" .
+
+<https://w3id.org/steel/ProcessOntology/DigitalWorkflow> <http://www.w3.org/2004/02/skos/core#preflabel> "Digital workflow" .
+
+<https://w3id.org/steel/ProcessOntology/DigitalWorkflow> <http://www.w3.org/2004/02/skos/core#preflabel> "Digitaler Arbeitsablauf" .
+
+

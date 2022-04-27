@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/PyironProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A frame where all pyiron jobs are done on top of this frame. It encloses a number of jobs. It also provides utility functions for creatig python objects for these jobs." .
+
+<https://w3id.org/steel/ProcessOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron Projekt" .
+
+<https://w3id.org/steel/ProcessOntology/PyironProject> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron project" .
+
+<https://w3id.org/steel/ProcessOntology/PyironProject> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron Projekt" .
+
+<https://w3id.org/steel/ProcessOntology/PyironProject> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron project" .
+
+

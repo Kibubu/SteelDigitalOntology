@@ -1,0 +1,31 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://emmo.info/emmo#process> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2000/01/rdf-schema#comment> "execution information of a Code; can get deferred; can get executed on a batch system. A Pyiron job bundles all required metadata for a Pyiron code execution. Is similar to the context of a process from computer science." .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron Job" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2000/01/rdf-schema#label> "Pyiron Job" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2004/02/skos/core#altlabel> " Pyiron Kontext" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2004/02/skos/core#altlabel> " Pyiron Prozess" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2004/02/skos/core#altlabel> " Pyiron execution context" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2004/02/skos/core#altlabel> "Pyiron Job" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2004/02/skos/core#altlabel> "Pyiron process" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron Job" .
+
+<https://w3id.org/steel/ProcessOntology/PyironJob> <http://www.w3.org/2004/02/skos/core#preflabel> "Pyiron Job" .
+
+

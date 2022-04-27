@@ -1,0 +1,15 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/norm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/norm> <http://purl.org/dc/elements/1.1/description> "The norm according to which the experiment was conducted." .
+
+<https://w3id.org/steel/ProcessOntology/norm> <http://www.w3.org/2000/01/rdf-schema#label> "norm" .
+
+<https://w3id.org/steel/ProcessOntology/norm> <http://www.w3.org/2004/02/skos/core#preflabel> "norm" .
+
+

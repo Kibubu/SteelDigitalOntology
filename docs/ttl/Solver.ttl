@@ -1,0 +1,21 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/Solver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/Solver> <http://www.w3.org/2000/01/rdf-schema#comment> "A software for solving compelex lin-diff equations, Like Abaqus or Lsdyna" .
+
+<https://w3id.org/steel/ProcessOntology/Solver> <http://www.w3.org/2000/01/rdf-schema#label> "Solver" .
+
+<https://w3id.org/steel/ProcessOntology/Solver> <http://www.w3.org/2000/01/rdf-schema#label> "Solver" .
+
+<https://w3id.org/steel/ProcessOntology/Solver> <http://www.w3.org/2004/02/skos/core#altlabel> "Gleichungslöser" .
+
+<https://w3id.org/steel/ProcessOntology/Solver> <http://www.w3.org/2004/02/skos/core#preflabel> "Solver" .
+
+<https://w3id.org/steel/ProcessOntology/Solver> <http://www.w3.org/2004/02/skos/core#preflabel> "Solver" .
+
+

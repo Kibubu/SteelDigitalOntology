@@ -1,0 +1,17 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/ScriptJob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://w3id.org/steel/ProcessOntology/ScriptJob> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/steel/ProcessOntology/PyironJob> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/ScriptJob> <http://www.w3.org/2000/01/rdf-schema#comment> "a Pyiron job for executing a script like e.g. JupyterNotebook" .
+
+<https://w3id.org/steel/ProcessOntology/ScriptJob> <http://www.w3.org/2000/01/rdf-schema#label> "Script Job" .
+
+<https://w3id.org/steel/ProcessOntology/ScriptJob> <http://www.w3.org/2004/02/skos/core#preflabel> "Script Job" .
+
+

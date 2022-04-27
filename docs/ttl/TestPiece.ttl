@@ -1,0 +1,21 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/TestPiece> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/TestPiece> <http://www.w3.org/2000/01/rdf-schema#comment> "Something that a test is perfomed on" .
+
+<https://w3id.org/steel/ProcessOntology/TestPiece> <http://www.w3.org/2000/01/rdf-schema#label> "Probe" .
+
+<https://w3id.org/steel/ProcessOntology/TestPiece> <http://www.w3.org/2000/01/rdf-schema#label> "Test piece" .
+
+<https://w3id.org/steel/ProcessOntology/TestPiece> <http://www.w3.org/2004/02/skos/core#altlabel> "sample, specimen" .
+
+<https://w3id.org/steel/ProcessOntology/TestPiece> <http://www.w3.org/2004/02/skos/core#preflabel> "Probe" .
+
+<https://w3id.org/steel/ProcessOntology/TestPiece> <http://www.w3.org/2004/02/skos/core#preflabel> "Test piece" .
+
+

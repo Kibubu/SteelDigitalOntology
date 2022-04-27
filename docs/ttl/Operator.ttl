@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/Operator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/Operator> <http://www.w3.org/2000/01/rdf-schema#comment> "some kind of a step. mathematical Operator" .
+
+<https://w3id.org/steel/ProcessOntology/Operator> <http://www.w3.org/2000/01/rdf-schema#label> "Mathematische Operation" .
+
+<https://w3id.org/steel/ProcessOntology/Operator> <http://www.w3.org/2000/01/rdf-schema#label> "Operator" .
+
+<https://w3id.org/steel/ProcessOntology/Operator> <http://www.w3.org/2004/02/skos/core#preflabel> "Mathematische Operation" .
+
+<https://w3id.org/steel/ProcessOntology/Operator> <http://www.w3.org/2004/02/skos/core#preflabel> "Operator" .
+
+

@@ -1,0 +1,23 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/steel/ProcessOntology/Code> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#label> "Damask Code" .
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/2000/01/rdf-schema#label> "Damask code" .
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#altlabel> "Damask Ablauf" .
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#altlabel> "code damask" .
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Damask Code" .
+
+<https://w3id.org/steel/ProcessOntology/DamaskCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Damask code" .
+
+

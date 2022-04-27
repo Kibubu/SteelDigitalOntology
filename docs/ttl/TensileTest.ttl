@@ -1,0 +1,21 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/TensileTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://w3id.org/steel/ProcessOntology/TensileTest> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://material-digital.de/pmdco/TensileTest> .
+
+<https://w3id.org/steel/ProcessOntology/TensileTest> <http://www.w3.org/2004/02/skos/core#related> <https://material-digital.de/pmdco/TensileTest> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/TensileTest> <http://www.w3.org/2000/01/rdf-schema#label> "Tensile Test" .
+
+<https://w3id.org/steel/ProcessOntology/TensileTest> <http://www.w3.org/2000/01/rdf-schema#label> "Zugversuch" .
+
+<https://w3id.org/steel/ProcessOntology/TensileTest> <http://www.w3.org/2004/02/skos/core#preflabel> "Tensile Test" .
+
+<https://w3id.org/steel/ProcessOntology/TensileTest> <http://www.w3.org/2004/02/skos/core#preflabel> "Zugversuch" .
+
+

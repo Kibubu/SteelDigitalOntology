@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Your awesome title</title>
+    <title>ProcessOntology</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,11 +33,12 @@ or
   <hr class="my-4">
   <p>
   
+  
   </p>
 </div>
 
 
-        <h1>https://w3id.org/stahl/SteelDigitalOntology/DigitalWorkflow</h1>
+        <h1>https://w3id.org/steel/ProcessOntology/DigitalWorkflow</h1>
 
         <h2 id="classes">PO Statements</h2>
         
@@ -46,32 +47,32 @@ or
         <table>
         
           <tr>
-            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
-            <td>Workflow</td>
-          </tr>
-        
-          <tr>
             <td>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</td>
             <td>http://www.w3.org/2002/07/owl#Class</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
             <td>Digital workflow</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
             <td>Digitaler Arbeitsablauf</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
+            <td>http://www.w3.org/2000/01/rdf-schema#subClassOf</td>
+            <td>http://w3id.org/steel/ProcessOntology/Workflow</td>
+          </tr>
+        
+          <tr>
+            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
             <td>Digital workflow</td>
           </tr>
         
           <tr>
-            <td>http://www.w3.org/2000/01/rdf-schema#label</td>
+            <td>http://www.w3.org/2004/02/skos/core#preflabel</td>
             <td>Digitaler Arbeitsablauf</td>
           </tr>
         
@@ -85,11 +86,21 @@ or
     <li>
         <a
             title="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
-            href="stahl.//rdfsites/http/www.w3.org/2002/07/owl#Class"
+            href=".//rdfsites/http/www.w3.org/2002/07/owl#Class"
             >Class</a> via
         <a
-            href="stahl.//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            href=".//rdfsites/http/www.w3.org/1999/02/22-rdf-syntax-ns#type"
             >type</a>
+    </li>
+    
+    <li>
+        <a
+            title="http://www.w3.org/2000/01/rdf-schema#subClassOf"
+            href=".//ProcessOntology/Workflow"
+            >Workflow</a> via
+        <a
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#subClassOf"
+            >subClassOf</a>
     </li>
     
 </ul>
@@ -101,10 +112,10 @@ or
     <li>
         <a
             title="http://www.w3.org/2000/01/rdf-schema#domain"
-            href="stahl.//SteelDigitalOntology/hasStep"
+            href=".//ProcessOntology/hasStep"
             >has Step</a> via
         <a
-            href="stahl.//rdfsites/http/www.w3.org/2000/01/rdf-schema#domain"
+            href=".//rdfsites/http/www.w3.org/2000/01/rdf-schema#domain"
             >domain</a>
     </li>
     

@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/Testing%20machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/Testing%20machine> <http://www.w3.org/2000/01/rdf-schema#comment> "A machine pervorming an experimental test" .
+
+<https://w3id.org/steel/ProcessOntology/Testing%20machine> <http://www.w3.org/2000/01/rdf-schema#label> "Prüfmaschiene" .
+
+<https://w3id.org/steel/ProcessOntology/Testing%20machine> <http://www.w3.org/2000/01/rdf-schema#label> "Testing machine" .
+
+<https://w3id.org/steel/ProcessOntology/Testing%20machine> <http://www.w3.org/2004/02/skos/core#preflabel> "Prüfmaschiene" .
+
+<https://w3id.org/steel/ProcessOntology/Testing%20machine> <http://www.w3.org/2004/02/skos/core#preflabel> "Testing machine" .
+
+

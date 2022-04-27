@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Standard as described by ISO / DIN / etc" .
+
+<https://w3id.org/steel/ProcessOntology/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Norm" .
+
+<https://w3id.org/steel/ProcessOntology/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard" .
+
+<https://w3id.org/steel/ProcessOntology/Standard> <http://www.w3.org/2004/02/skos/core#preflabel> "Norm" .
+
+<https://w3id.org/steel/ProcessOntology/Standard> <http://www.w3.org/2004/02/skos/core#preflabel> "Standard" .
+
+

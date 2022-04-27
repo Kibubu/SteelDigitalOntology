@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/Phase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/Phase> <http://www.w3.org/2000/01/rdf-schema#comment> "Region of space (a thermodynamic system), throughout which all physical properties of a material are essentially uniform (Wikipedia)" .
+
+<https://w3id.org/steel/ProcessOntology/Phase> <http://www.w3.org/2000/01/rdf-schema#label> "Phase" .
+
+<https://w3id.org/steel/ProcessOntology/Phase> <http://www.w3.org/2000/01/rdf-schema#label> "Phase" .
+
+<https://w3id.org/steel/ProcessOntology/Phase> <http://www.w3.org/2004/02/skos/core#preflabel> "Phase" .
+
+<https://w3id.org/steel/ProcessOntology/Phase> <http://www.w3.org/2004/02/skos/core#preflabel> "Phase" .
+
+

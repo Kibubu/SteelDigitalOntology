@@ -1,0 +1,23 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/steel/ProcessOntology/Code> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/2000/01/rdf-schema#label> "Simulation Code" .
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/2000/01/rdf-schema#label> "Simulations Code" .
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/2004/02/skos/core#altlabel> "Simulation program" .
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/2004/02/skos/core#altlabel> "Simulationsprogramm" .
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Simulation Code" .
+
+<https://w3id.org/steel/ProcessOntology/SimulationCode> <http://www.w3.org/2004/02/skos/core#preflabel> "Simulations Code" .
+
+

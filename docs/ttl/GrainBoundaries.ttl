@@ -1,0 +1,19 @@
+
+
+
+<https://w3id.org/steel/ProcessOntology/GrainBoundaries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+
+
+
+
+<https://w3id.org/steel/ProcessOntology/GrainBoundaries> <http://www.w3.org/2000/01/rdf-schema#comment> "need at least two grains" .
+
+<https://w3id.org/steel/ProcessOntology/GrainBoundaries> <http://www.w3.org/2000/01/rdf-schema#label> "Korngrenzen" .
+
+<https://w3id.org/steel/ProcessOntology/GrainBoundaries> <http://www.w3.org/2000/01/rdf-schema#label> "grain boundaries" .
+
+<https://w3id.org/steel/ProcessOntology/GrainBoundaries> <http://www.w3.org/2004/02/skos/core#preflabel> "Korngrenzen" .
+
+<https://w3id.org/steel/ProcessOntology/GrainBoundaries> <http://www.w3.org/2004/02/skos/core#preflabel> "grain boundaries" .
+
+
